@@ -1,22 +1,18 @@
 * {
     box-sizing: border-box;
 }
-/*img {
-    width: 100%;
-}*/
 
 body {
     letter-spacing: 1.3px;
     font-family: 'Lato', sans-serif !important;
-    /*background-image: linear-gradient(rgba(12, 155, 122, 0.6), rgba(200, 220, 210, 0.6)), url(/img/16.jpg);
-    background-size: cover;*/
+    background-size: cover;
     background-color: #f1f1f1;
 }
 
 .name {
-    font-size: 60px;
+    font-size: 58px;
     color: #3c3c3d;
-    /*font-family: 'Nobile', sans-serif;*/
+    padding-top: 20px;
 }
 
 .column {
@@ -31,10 +27,17 @@ body {
 .nav-menu {
     background-color: #3c3c3d;
     color: white;
+    font-size: 30px;
 }
 
 .nav-dark a, 
 .nav-dark a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.white a, 
+.white a:hover {
     text-decoration: none;
     color: white;
 }
@@ -49,18 +52,18 @@ body {
 }
 
 .hero {
-    /*background: linear-gradient(rgba(200, 220, 210, 0.6), rgba(200, 220, 210, 0.6))*/
-    background-image: url(img/geometric-background-dark.jpg);
+    background-image: linear-gradient(rgba(12, 155, 122, 0.6), rgba(200, 220, 210, 0.6)), url(/img/geometric-background-turquoise.jpg);
+    /*background: #3c3c3d;*/
     background-size: cover;
 }
 
-.subtitle {
+/*.subtitle {
     margin-right: 30px;
 }
 
 .subtitle:last-child {
     margin-right: 0px;
-}
+}*/
 
 #contact {
     background-color: rgba(122, 143, 155, 0.5);
