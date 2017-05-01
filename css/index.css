@@ -50,7 +50,7 @@ body {
 
 .hero {
     /*background: linear-gradient(rgba(200, 220, 210, 0.6), rgba(200, 220, 210, 0.6))*/
-    background-image: url(/img/geometric-background-dark.jpg);
+    background-image: url(img/geometric-background-dark.jpg);
     background-size: cover;
 }
 
